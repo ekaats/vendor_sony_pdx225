@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+    Copyright 2021 Sony Corporation
+-->
+
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2.0</nits>
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>650.0</nits>
+        </point>
+    </screenBrightnessMap>
+    <screenBrightnessDefault>0.46</screenBrightnessDefault>
+    <screenBrightnessRampFastDecrease>0.8</screenBrightnessRampFastDecrease>
+    <screenBrightnessRampFastIncrease>0.8</screenBrightnessRampFastIncrease>
+    <screenBrightnessRampSlowDecrease>0.0167</screenBrightnessRampSlowDecrease>
+    <screenBrightnessRampSlowIncrease>0.4</screenBrightnessRampSlowIncrease>
+    <perceptionMap>
+        <perceptionPoint brightness="0" perception="0"/>
+        <perceptionPoint brightness="0.01" perception="0.17320508"/>
+        <perceptionPoint brightness="0.02" perception="0.24494897"/>
+        <perceptionPoint brightness="0.03" perception="0.3"/>
+        <perceptionPoint brightness="0.04" perception="0.34641016"/>
+        <perceptionPoint brightness="0.05" perception="0.38729833"/>
+        <perceptionPoint brightness="0.06" perception="0.42426407"/>
+        <perceptionPoint brightness="0.07" perception="0.45825757"/>
+        <perceptionPoint brightness="0.08" perception="0.48989795"/>
+        <perceptionPoint brightness="0.09" perception="0.5189586"/>
+        <perceptionPoint brightness="0.1" perception="0.54408949"/>
+        <perceptionPoint brightness="0.2" perception="0.69389427"/>
+        <perceptionPoint brightness="0.3" perception="0.77425209"/>
+        <perceptionPoint brightness="0.4" perception="0.82949729"/>
+        <perceptionPoint brightness="0.5" perception="0.87164347"/>
+        <perceptionPoint brightness="0.6" perception="0.90572696"/>
+        <perceptionPoint brightness="0.7" perception="0.93434274"/>
+        <perceptionPoint brightness="0.8" perception="0.95900495"/>
+        <perceptionPoint brightness="0.9" perception="0.9806746"/>
+        <perceptionPoint brightness="1" perception="1"/>
+    </perceptionMap>
+</displayConfiguration>
