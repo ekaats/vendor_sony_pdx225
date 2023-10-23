@@ -1915,7 +1915,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     uceShimService \
-    WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
@@ -1923,7 +1922,6 @@ PRODUCT_PACKAGES += \
     QXPerformance \
     UxPerformance \
     tcmclient \
-    WfdCommon \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
