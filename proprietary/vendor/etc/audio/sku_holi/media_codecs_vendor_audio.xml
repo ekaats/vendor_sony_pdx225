@@ -21,6 +21,10 @@
         <MediaCodec name="OMX.google.raw.decoder" type="audio/raw" update="true" rank="1"/>
         <MediaCodec name="OMX.somc.mpha.decoder" type="audio/mp4"/>
         <!-- SimpleOMXComponet based software decoder-->
+        <MediaCodec name="OMX.qti.audio.decoder.dsd" type="audio/dsd" >
+            <Limit name="channel-count" max="2" />
+            <Limit name="sample-rate" ranges="2822400-2822400" />
+        </MediaCodec>
         <MediaCodec name="c2.sony.mha1.decoder" type="audio/mha1">
             <Limit name="channel-count" max="13" />
             <Limit name="sample-rate" ranges="48000" />
