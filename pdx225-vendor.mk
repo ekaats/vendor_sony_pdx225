@@ -1874,12 +1874,10 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     embms \
     uceShimService \
-    WfdService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
     tcmclient \
-    WfdCommon \
     audiosphere \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
