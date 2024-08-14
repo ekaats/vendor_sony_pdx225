@@ -2310,6 +2310,10 @@
         <path name="headphones"/>
         <path name="speaker"/>
     </path>
+    <path name="voice-speaker-stereo-and-voice-headphones">
+        <path name="voice-headphones"/>
+        <path name="voice-speaker-stereo"/>
+    </path>
     <path name="speaker-and-headphones-hifi-filter">
         <path name="headphones"/>
         <path name="speaker"/>

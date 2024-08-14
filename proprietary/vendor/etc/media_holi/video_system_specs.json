@@ -76,7 +76,7 @@
             //  0x1: 8 bit: enable.  10 bit: disable
             //  0x2: 8 bit: disable. 10 bit: enable
             //  0x3: 8 bit: enable.  10 bit: enable
-            "enc_bitrate_savings": 1,
+            "enc_bitrate_savings": 0,
             // minimum encoder bitrate boost
             "enc_bitrate_boost": 15,
             // time threshold of output buffer allocation loop since last input buffer queued(ms)

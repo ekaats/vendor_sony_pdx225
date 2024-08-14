@@ -79,9 +79,9 @@
         </Profile>
         <Profile target="blair">
             <!-- Colocation v3 1 GHz, Predictive Load 1, Sched Many Wake Up Threshold 4 ,LPM IPI Prediction 0 -->
-            <DEFAULT>0x4144C100,860000,0x41444000,1,0x40C9C000,4,0x40414000,0</DEFAULT>
+            <DEFAULT>0x40400000,1,0x41444000,1,0x40C9C000,4,0x40414000,0,0x40800100,0x12C</DEFAULT>
             <!-- Colocation v3 1 GHz, Predictive Load 1, Sched Many Wake Up Threshold 4, LPM IPI Prediction 0-->
-            <SKEW2>0x4144C100,860000,0x41444000,1,0x40C9C000,4,0x40414000,0</SKEW2>
+            <SKEW2>0x40400000,1,0x41444000,1,0x40C9C000,4,0x40414000,0,0x40800100,0x12C</SKEW2>
         </Profile>
     </Profiles>
 

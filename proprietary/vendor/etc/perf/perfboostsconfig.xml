@@ -518,5 +518,12 @@
                 Id="0x00001097" Type="0" Enable="true" Timeout="7" Target="blair" Fps="144"
                 Resources="0x40800100, 1000, 0x42804000, 0" />
 
+    <!--Virtual display HWC hint -->
+        <!-- CPU min freq resource opcode, value -->
+        <!-- CPUBOOST_MAX_FREQ LITTLE Core resource opcode, value -->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value -->
+        <Config
+            Id="0x00001098" Enable="true" Timeout="17" Target="blair" Type="0"
+                Resources="0x40804100, 0xFFF, 0x40800100, 0x6AC" />
     </PerfBoost>
 </BoostConfigs>
