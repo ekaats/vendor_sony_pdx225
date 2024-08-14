@@ -287,7 +287,7 @@ android_app_import {
 android_app_import {
 	name: "EuiccMemoryReset",
 	owner: "sony",
-	apk: "proprietary/system_ext/priv-app/EuiccMemoryReset/EuiccMemoryReset.apk",
+	apk: "proprietary/product/priv-app/EuiccMemoryReset/EuiccMemoryReset.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
